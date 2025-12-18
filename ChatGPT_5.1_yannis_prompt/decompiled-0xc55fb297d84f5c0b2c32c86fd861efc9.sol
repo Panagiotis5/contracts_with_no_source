@@ -1,5 +1,5 @@
 // Decompiled by library.dedaub.com
-// 2025.12.05 11:04 UTC
+// 2025.12.17 04:46 UTC
 // Compiled using the solidity compiler version 0.8.23
 
 
@@ -12,7 +12,7 @@ address _transferFrom; // STORAGE[0x0] bytes 0 to 19
 Transfer(address, address, uint256);
 
 function totalSupply() public payable { 
-    return 0x16cda04b53275d5;
+    return 0xbc09bcc7bf49d7;
 }
 
 function transferFrom(address sender, address recipient, uint256 amount) public payable { 
@@ -31,14 +31,14 @@ function _decimals() public payable {
 }
 
 function _totalSupply() public payable { 
-    return 0x16cda04b53275d5;
+    return 0xbc09bcc7bf49d7;
 }
 
 function signature() public payable { 
-    v0 = 0x459(_signature.length);
+    v0 = 0x453(_signature.length);
     v1 = new bytes[](v0);
     v2 = v3 = v1.data;
-    v4 = 0x459(_signature.length);
+    v4 = 0x453(_signature.length);
     if (v4) {
         if (31 < v4) {
             v5 = v6 = _signature.data;
@@ -105,7 +105,7 @@ function _name() public payable {
     return v0;
 }
 
-function 0x459(uint256 varg0) private { 
+function 0x453(uint256 varg0) private { 
     v0 = v1 = varg0 >> 1;
     if (!(varg0 & 0x1)) {
         v0 = v2 = v1 & 0x7f;
